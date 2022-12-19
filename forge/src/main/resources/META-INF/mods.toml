@@ -1,0 +1,21 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+issueTrackerURL = "https://github.com/TropheusJ/block_limit_fix"
+license = "MIT"
+
+[[mods]]
+modId = "block_limit_fix"
+version = "${version}"
+displayName = "Block Limit Fix"
+authors = "Tropheus Jay, Patbox"
+description = '''
+Fixes a vanilla bug limiting total Blockstates to ~500k
+'''
+logoFile = "icon.png"
+
+[[dependencies.block_limit_fix]]
+modId = "minecraft"
+mandatory = true
+versionRange = "(,1.19.3]"
+ordering = "NONE"
+side = "BOTH"

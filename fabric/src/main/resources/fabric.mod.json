@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "block_limit_fix",
+  "version": "${version}",
+  "name": "Block Limit Fix",
+  "description": "Fixes a vanilla bug limiting total Blockstates to ~500k",
+  "authors": [
+    "Tropheus Jay",
+    "Patbox"
+  ],
+  "contact": {
+    "sources": "https://github.com/TropheusJ/block_limit_fix"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "mixins": [
+    "block_limit_fix.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "<=1.19.3"
+  }
+}
