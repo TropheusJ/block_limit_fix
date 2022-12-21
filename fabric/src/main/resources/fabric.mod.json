@@ -18,6 +18,6 @@
     "block_limit_fix.mixins.json"
   ],
   "depends": {
-    "minecraft": "<=1.19.3"
+    "minecraft": ">=1.16.5 <=1.19.3"
   }
 }
