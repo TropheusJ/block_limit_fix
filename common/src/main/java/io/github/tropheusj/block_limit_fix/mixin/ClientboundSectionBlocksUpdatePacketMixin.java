@@ -15,19 +15,15 @@ import org.spongepowered.asm.mixin.Shadow;
 @Mixin(value = ClientboundSectionBlocksUpdatePacket.class, priority = 100) // apply really early to let other mods still do their things
 public abstract class ClientboundSectionBlocksUpdatePacketMixin implements Packet<ClientGamePacketListener> {
 	@Shadow
-	@Final
 	private SectionPos sectionPos;
 
 	@Shadow
-	@Final
 	private boolean suppressLightUpdates;
 
 	@Shadow
-	@Final
 	private short[] positions;
 
 	@Shadow
-	@Final
 	private BlockState[] states;
 
 	/**
